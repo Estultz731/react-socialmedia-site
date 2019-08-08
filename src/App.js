@@ -96,6 +96,28 @@ function App() {
       <textarea className='textBox' rows='3' cols='80'>
         Write here...
       </textarea>
+      <div className='container'>
+        <div className='rows'>
+          <div className='col-lg-12'>
+            <div className='card'>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div className='col-lg-12'>
+            <div className='card'>
+              <p>
+                Vestibulum venenatis, nulla et fermentum scelerisque, velit
+                purus gravida odio, non venenatis felis ligula sed ipsum.
+              </p>
+            </div>
+          </div>
+          <div className='col-lg-12'>
+            <div className='card'>
+              <p>Aenean auctor nibh id dui vestibulum sagittis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
