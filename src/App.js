@@ -7,7 +7,12 @@ const Nav = () => (
     <a className='logo' href='#logo'>
       <i className='fas fa-bug' />
     </a>
-    <input type='text' placeholder='Search' name='search' />
+    <input
+      type='text'
+      placeholder='Search'
+      name='search'
+      className='searchBox'
+    />
     <button type='submit'>
       <i className='fas fa-search' />
     </button>
