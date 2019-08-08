@@ -172,3 +172,29 @@ p {
   color: #8d96a3;
   margin-top: 10px;
 }
+
+.rightSidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  overflow-x: hidden;
+  background-color: #ecedef;
+  margin-top: 50px;
+}
+
+.rightSidebar a {
+  padding: 5px 7px 5px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #99c24d;
+  font-family: 'PT Sans Narrow', sans-serif;
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #7e9f40;
+}
