@@ -198,3 +198,9 @@ a:hover {
   text-decoration: none;
   color: #7e9f40;
 }
+
+.textBox {
+  margin-left: 330px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
