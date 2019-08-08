@@ -47,6 +47,40 @@ function App() {
   return (
     <>
       <Nav />
+      <div className='leftSidebar'>
+        <ul>
+          <li>
+            <a className='usersName' href='#users'>
+              Jane Doe
+            </a>
+          </li>
+          <li>
+            <a className='wallPosts' href='#wall'>
+              Wall Posts
+            </a>
+          </li>
+          <li>
+            <a className='messenger' href='#messenger'>
+              Messenger
+            </a>
+          </li>
+        </ul>
+        <p>
+          <strong>Explore</strong>
+        </p>
+        <ul>
+          <li>
+            <a className='groups' href='#groups'>
+              Groups
+            </a>
+          </li>
+          <li>
+            <a className='events' href='#events'>
+              Events
+            </a>
+          </li>
+        </ul>
+      </div>
     </>
   );
 }
