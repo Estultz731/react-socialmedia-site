@@ -66,33 +66,36 @@ function App() {
         <a className='events' href='#events'>
           Events
         </a>
-        <div className='rightSidebar'>
-          <a className='friend1' href='#friend1'>
-            John Smith
-          </a>
-          <a className='friend2' href='#friend2'>
-            Sally Jones
-          </a>
-          <a className='friend3' href='#friend3'>
-            Mary Smith
-          </a>
-          <a className='friend4' href='#friend4'>
-            Ralph Bear
-          </a>
-          <a className='friend5' href='#friend5'>
-            Mortimer Smith
-          </a>
-          <a className='friend6' href='#friend6'>
-            Sherman Bear
-          </a>
-          <a className='friend7' href='#friend7'>
-            Sarah Doe
-          </a>
-          <a className='friend8' href='#friend8'>
-            John Doe
-          </a>
-        </div>
       </div>
+      <div className='rightSidebar'>
+        <a className='friend1' href='#friend1'>
+          John Smith
+        </a>
+        <a className='friend2' href='#friend2'>
+          Sally Jones
+        </a>
+        <a className='friend3' href='#friend3'>
+          Mary Smith
+        </a>
+        <a className='friend4' href='#friend4'>
+          Ralph Bear
+        </a>
+        <a className='friend5' href='#friend5'>
+          Mortimer Smith
+        </a>
+        <a className='friend6' href='#friend6'>
+          Sherman Bear
+        </a>
+        <a className='friend7' href='#friend7'>
+          Sarah Doe
+        </a>
+        <a className='friend8' href='#friend8'>
+          John Doe
+        </a>
+      </div>
+      <textarea className='textBox' rows='3' cols='80'>
+        Write here...
+      </textarea>
     </>
   );
 }
